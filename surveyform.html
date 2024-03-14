@@ -1,0 +1,259 @@
+
+ <style>
+ @import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+ </style>
+ <style>
+    @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Protest+Revolution&display=swap');
+    </style>
+ <!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="form.css">
+  
+</head>
+
+<body>
+
+    <div class="container">
+        <header class="header">
+            <h1 id="title">
+                Political Survey Form
+            </h1>
+            <br> <br>
+            <p id="description">
+                Thank you for sharing your views
+            </p>
+
+        </header>
+    </div>
+
+    </header>
+    <form name="frmConnect" class="needs-validation " method="post" name="google-sheet" action="https://docs.google.com/spreadsheets/d/1bwD02kiWQG0KsNBG4X0gOnu66LKF5-EoSkQ76wZkgNE/edit#gid=0">
+        <form action="" id="survey-form">
+          <form action="https://docs.google.com/spreadsheets/d/1bwD02kiWQG0KsNBG4X0gOnu66LKF5-EoSkQ76wZkgNE/edit#gid=0" method="post" name="google-sheet">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" class="formControl" placeholder="Enter your name" required>
+            </div>
+            <br>
+            <div class="form-group">
+                <lable for="email">Email:</lable>
+                <input type="email" name="email" class="formControl" placeholder="Enter your email" required>
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="number">Phone No:</label>
+                <input type="contact" name="contact" class="formControl" placeholder="Enter your phone no" required>
+            </div>
+            <br>
+            <div>
+                Gender: Male<input type="radio" name="gender"> Female<input type="radio" name="gender"> Other<input
+                    type="radio" name="gender">
+            </div>
+            <br>
+            <div>
+                <label for="age">Age group</label>
+                <select name="age" id="Age">
+                    <option value="" disabled selected>Select Age</option>
+                    <option value="18">18-25</option>
+                    <option value="25">25-40</option>
+                    <option value="40">40-60</option>
+                    <option value="60">60+</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                On which political issues, parties should focus more?
+                <br><input type="radio" name="myquestion">Unemployment
+                <br><input type="radio" name="myquestion">Human Rights
+                <br><input type="radio" name="myquestion">Education
+                <br><input type="radio" name="myquestion">Terrorism
+                <br><input type="radio" name="myquestion">Corruption
+                <br><input type="radio" name="myquestion">All of these
+            </div>
+            <br>
+            <div>
+                How much time do you invest behind reading or listening to political issues?
+                <br><input type="radio" name="political">15 to 30 minutes
+                <br><input type="radio" name="political">1 to 2 hours
+                <br><input type="radio" name="political">2+ hours
+                <br><input type="radio" name="political">No comments
+            </div>
+            <br>
+            <div>
+                Which sources do you use to get news related to political issues? Check all that applies:
+                <br><input type="checkbox" name="sources">Newspaper
+                <br><input type="checkbox" name="sources">Television
+                <br><input type="checkbox" name="sources">Social Media
+                <br><input type="checkbox" name="sources">Other
+            </div>
+            <br>
+            <div>
+                Do you think that the elected representatives really care about people after winning?
+                <br><input type="radio" name="elected">Yes
+                <br><input type="radio" name="elected">No
+                <br><input type="radio" name="elected">No comments
+            </div>
+            <br>
+            <div>
+                Do you read articles / news related to politics on the internet?
+                <br><input type="radio" name="politics">Yes
+                <br><input type="radio" name="politics">No
+                <br><input type="radio" name="politics">Sometimes
+            </div>
+            <br>
+            <div>
+                Have you ever participated in any of the political activities?
+                <br><input type="radio" name="activities">Yes
+                <br><input type="radio" name="activities">No
+            </div>
+            <br>
+            <div>
+                Any comments you want to give? <br><textarea name="text" id="" cols="30" rows="5" class="formControl"
+                    placeholder="Enter your comment here... " required></textarea></textarea>
+            </div>
+            <br>
+            <div>
+                Date: <input type="date" name="date">
+            </div>
+            <br>
+                <button>
+                    Submit
+                    <div class="star-1">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        xml:space="preserve"
+                        version="1.1"
+                        style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                        viewBox="0 0 784.11 815.53"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                      >
+                        <defs></defs>
+                        <g id="Layer_x0020_1">
+                          <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                          <path
+                            class="fil0"
+                            d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                          ></path>
+                        </g>
+                      </svg>
+                    </div>
+                    <div class="star-2">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        xml:space="preserve"
+                        version="1.1"
+                        style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                        viewBox="0 0 784.11 815.53"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                      >
+                        <defs></defs>
+                        <g id="Layer_x0020_1">
+                          <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                          <path
+                            class="fil0"
+                            d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                          ></path>
+                        </g>
+                      </svg>
+                    </div>
+                    <div class="star-3">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        xml:space="preserve"
+                        version="1.1"
+                        style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                        viewBox="0 0 784.11 815.53"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                      >
+                        <defs></defs>
+                        <g id="Layer_x0020_1">
+                          <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                          <path
+                            class="fil0"
+                            d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                          ></path>
+                        </g>
+                      </svg>
+                    </div>
+                    <div class="star-4">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        xml:space="preserve"
+                        version="1.1"
+                        style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                        viewBox="0 0 784.11 815.53"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                      >
+                        <defs></defs>
+                        <g id="Layer_x0020_1">
+                          <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                          <path
+                            class="fil0"
+                            d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                          ></path>
+                        </g>
+                      </svg>
+                    </div>
+                    <div class="star-5">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        xml:space="preserve"
+                        version="1.1"
+                        style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                        viewBox="0 0 784.11 815.53"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                      >
+                        <defs></defs>
+                        <g id="Layer_x0020_1">
+                          <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                          <path
+                            class="fil0"
+                            d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                          ></path>
+                        </g>
+                      </svg>
+                    </div>
+                    <div class="star-6">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        xml:space="preserve"
+                        version="1.1"
+                        style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+                        viewBox="0 0 784.11 815.53"
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                      >
+                        <defs></defs>
+                        <g id="Layer_x0020_1">
+                          <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                          <path
+                            class="fil0"
+                            d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                          ></path>
+                        </g>
+                      </svg>
+                    </div>
+                  </button>
+
+            </div>
+        </form>
+        </form>
+        <script>
+          const scriptURL ='https://script.google.com/macros/s/AKfycbzndzFCV2e4dNxXHCbw8iDgx61JLUbm79c_2Tmh_CTbaIQ6JpTop7DDsfj94jUXhtVoXg/exec'
+          const form = document. forms['google-sheet']
+
+          form.addEventListener('submit', e =>{
+            e.preventDefault()
+            fetch(scriptURL, {method: 'POST', body: new FormData(form)})
+            .then(response => alert("Thanks for Connecting us..! We Will Contact You Soon.."))
+            .catch(error => console.error('Error!', error.message))
+          })
+        </script>
+</body>
+
+</html>
